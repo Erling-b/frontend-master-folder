@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+.container {
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header, main, footer {
+    padding: 30px;
+}
+header{
+    background-color: violet;
+}
+main{
+    min-height: 1000px;
+    background-color: whitesmoke;
+}
+footer{
+    background-color: turquoise;
+}

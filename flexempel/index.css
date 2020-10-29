@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    background-color: teal;
+    height: 40px;
+    width: 100%;
+}
+.flex-item{
+flex: 1;
+border: 1px solid black;
+}
+img{
+    height: 100%;
+    width: 40px;
+
+}

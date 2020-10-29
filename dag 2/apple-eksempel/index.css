@@ -1,0 +1,39 @@
+body{
+    background-color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:rgb(34, 33, 31);
+}
+h1{
+font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 45px;
+    margin: 0px;
+}
+p{
+    display: inline-block;
+    width: 245px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+a{
+    padding-top: 35px;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 450;
+}
+img{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 45px;
+
+}

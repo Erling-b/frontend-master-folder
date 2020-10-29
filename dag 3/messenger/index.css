@@ -1,0 +1,22 @@
+main{
+
+}
+#grid-section{
+display: grid;
+grid-template-columns: 1fr;
+gap: 4px;
+width: 350px;
+}
+article{
+    background-color: whitesmoke;
+    justify-self: start;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right{
+    justify-self: end;
+    background-color: #3485f7;
+    color: white;
+}

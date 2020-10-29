@@ -1,0 +1,17 @@
+/* .container{
+    width: 100vw;
+    height: 100vh;
+} */
+.box{
+    width: 100px;
+    height: 100px;
+    background: #3dccc7;
+    transition-duration: 100ms;
+    transition-property: background, transform;
+    transition-timing-function: linear;
+}
+.box:hover{
+    background: #ff6b6b;
+    transform: skew(0deg) scale(1) translate3d(0, 0, -100px); 
+   
+}

@@ -1,0 +1,1 @@
+let SETNING = "Du gamla du fria";

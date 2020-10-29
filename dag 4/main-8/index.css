@@ -1,0 +1,13 @@
+main{
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px 100px;
+    grid-auto-flow: dense;
+    background-color: aqua;
+    gap: 8px;
+}
+ article{
+     background-color: black;
+}

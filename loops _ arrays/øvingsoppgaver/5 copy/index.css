@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+.form-bloggere {
+    margin-bottom: 100px;
+}
+
+.section-bloggere {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.section-bloggere img {
+    width: 100%;
+}

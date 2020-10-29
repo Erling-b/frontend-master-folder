@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+header, main, footer {
+    padding: 30px;
+}
+header{
+    background-color: violet;
+}
+main{
+/*2 ting for å sentrere*/
+/* sette en bredde eller maks bredde*/
+max-width: 1000px;
+/* sette automatisk marg på høyre og venstre side*/    
+margin-left: auto;
+margin-right: auto;
+background-color: whitesmoke;
+min-height: 500px;
+}
+footer{
+    background-color: turquoise;
+}

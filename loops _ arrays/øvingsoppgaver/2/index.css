@@ -1,0 +1,11 @@
+article{
+  display: flex;
+  background-color: aquamarine;
+  gap: 5px;
+}
+h1{
+    background-color: cornflowerblue;
+    height: 23;
+    padding: 20px;
+    margin-left: 1%;
+}

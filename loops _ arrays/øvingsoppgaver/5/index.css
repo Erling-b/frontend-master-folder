@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+.form-dyr {
+    margin-bottom: 100px;
+}
+
+.section-dyr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.section-dyr img {
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inner html og bilder</title>
+</head>
+<body>
+
+    <article id="article">
+        
+    </article>
+    
+<script>
+
+    const ARTICLE = document.querySelector("#article");
+    console.log(ARTICLE);
+
+const IMG_URL = "https://www.wksu.org/sites/wksu/files/styles/medium/public/201704/raccoon_fairfield_county_health_department.jpg"
+
+const ALT_TAG = "vaskebjørn med frempotene på en planke"
+
+    ARTICLE.innerHTML = `
+    <img class="bilder" src=${IMG_URL} alt="${ALT_TAG}">
+    `
+
+    const BILDE = document.querySelector(".bilder");
+
+    BILDE.style.width = "700px";
+    BILDE.style.border = "20px solid black";
+
+    ARTICLE.innerHTML += `
+        <h1>vaskebjørn med poter på ett bord</h>
+    `
+</script>
+
+</body>
+</html>

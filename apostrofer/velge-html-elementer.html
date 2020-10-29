@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Velge HTML-elementer</title>
+</head>
+<body>
+
+    <h1 id="overskrift">Velge HTML-elementer</h1>
+    <h2 id="underoverskrift">..... er nyttig</h2>
+    <article class="article">Hei</article>
+    <article class="article">på</article>
+    <article class="article">deg</article>
+
+<script>
+const OVERSKRIFT = document.getElementById("overskrift");
+console.log(OVERSKRIFT);
+
+const UNDEROVERSKRIFT = document.querySelector("#underoverskrift");
+console.log(UNDEROVERSKRIFT);
+
+const ARTICLE = document.querySelector(".article");
+console.log(ARTICLE);
+
+const ARTICLES = document.querySelectorAll(".article");
+console.log(ARTICLES);
+
+const ARTICLES_SECOND = ARTICLES[1];
+console.log(ARTICLES_SECOND);
+
+document.getElementsByClassName("article");
+
+OVERSKRIFT.style.color = "red";
+OVERSKRIFT.style.fontSize = "60px";
+
+OVERSKRIFT.innerHTML = "javascript er fett!";
+
+</script>
+
+</body>
+</html>

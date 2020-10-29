@@ -1,0 +1,24 @@
+article{
+    display: inline-block;
+    margin: 0;
+}
+.class1{
+border: 10px solid;
+border-color: cyan;
+color: darkgoldenrod;
+width: 580px;
+height: 380px;
+}
+.class2{
+border: 5px solid;
+    width: 565px;
+height: 385px;
+box-shadow: 10px 30px grey;
+margin-top: -50px;
+}
+.class3{
+border: double 25px;
+border-radius: 30px;
+width: 550px;
+height: 350px;
+}

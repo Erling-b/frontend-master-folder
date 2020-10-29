@@ -1,0 +1,26 @@
+body{
+    background-color: #eee;
+}
+
+a{
+    display: inline-block;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: white;
+
+    border: 1px solid gray;
+}
+.b1{
+    border: 5px solid orange;
+}
+.b2{
+    box-shadow: 10px 30px gray;
+}
+.b3{
+    box-shadow: 10px 10px 20px 35px black;
+}
+.b4{
+    box-shadow: 0 0 0 gray;
+}

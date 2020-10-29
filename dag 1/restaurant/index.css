@@ -1,0 +1,11 @@
+main {
+margin: 0;
+}
+main {color:black;
+background-color: powderblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+border-style: solid;
+border-color: pink;
+padding-bottom: 15px;
+}

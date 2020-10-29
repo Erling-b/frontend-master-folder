@@ -1,0 +1,28 @@
+*,h1,h2,p{
+margin: 0;
+box-sizing: border-box;
+}
+body{min-height:100vh;
+    background-color:saddlebrown;
+    color:white;
+    display:grid;
+    grid-template-rows:auto1frauto;
+}
+header,footer{
+    padding:1.5rem;
+}
+header{
+    background-color:peachpuff;
+    color:black;
+}
+main{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+main img{
+    border:4px solid white;
+}
+footer{
+    background-color:darkorange;
+}
