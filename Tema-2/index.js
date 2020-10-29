@@ -108,7 +108,7 @@ if (handlekurv){
     handlekurv.forEach( (kurvItem)=> {
         kurvHtml+=`
     <div class="divGrid2">
-        <img src="${kurvItem.bilde}" alt="album bilde>
+        <img src="${kurvItem.bilde}" alt="album bilde">
             <div class="kartDeling">
                 <div>${kurvItem.artist}</div>
                 <div>${kurvItem.album}</div>
@@ -142,7 +142,7 @@ function Fjern(e){
         kurvHtml+=
         `
 <div class="divGrid2">
-<img src="${kurvItem.bilde}" alt="album bilde>
+<img src="${kurvItem.bilde}" alt="album bilde">
 <div class="kartDeling">
 <div>${kurvItem.artist}</div>
 <div>${kurvItem.album}</div>
